@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "homepage": "https://callom7.github.io/Portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+	"predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.2.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "three": "^0.157.0",
+    "three-plain-animator": "^1.1.2"
+  }
+}
